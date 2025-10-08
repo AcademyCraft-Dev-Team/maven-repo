@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.academy",
+    "module": "misaka-network",
+    "version": "21.10.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "misaka-network-21.10.1.jar",
+          "url": "misaka-network-21.10.1.jar",
+          "size": 62217,
+          "sha512": "0de4497c26cee496d653d55e2383057e0ca788eaa8e9143f4e9e114ef41cca3168b51429ac902c544ec7c49ed0ce71ea7507fdf1a4b6c16ead2acb82729e5bdb",
+          "sha256": "edb69315a0d97b945c0c3d1179f684ee5afcc00991fb2bd3be0834fabd9a64b8",
+          "sha1": "17c5b90e7a91a078925f56b36caeed1152acfd3a",
+          "md5": "9038b8ee761776ca590c6956b17117c9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "misaka-network-21.10.1.jar",
+          "url": "misaka-network-21.10.1.jar",
+          "size": 62217,
+          "sha512": "0de4497c26cee496d653d55e2383057e0ca788eaa8e9143f4e9e114ef41cca3168b51429ac902c544ec7c49ed0ce71ea7507fdf1a4b6c16ead2acb82729e5bdb",
+          "sha256": "edb69315a0d97b945c0c3d1179f684ee5afcc00991fb2bd3be0834fabd9a64b8",
+          "sha1": "17c5b90e7a91a078925f56b36caeed1152acfd3a",
+          "md5": "9038b8ee761776ca590c6956b17117c9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "misaka-network-21.10.1-sources.jar",
+          "url": "misaka-network-21.10.1-sources.jar",
+          "size": 34099,
+          "sha512": "5b892dede8e8053b6380b4f7bcf824c644c8092fc1aece264fab69fc3b2bf3f4ac96b1dd77fc2ef6c69eba2726d7eb579d55eec848c2b8ef10cd655ad845667f",
+          "sha256": "adbe483ccb80042bb730c298fff4efbf22de60344aecab0adb3dcea7a73e7807",
+          "sha1": "ca6cf4836476ef55757717f8f8bd90b951e3e140",
+          "md5": "f7d25d519afb52425f0e9986aae37a49"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "misaka-network-21.10.1-javadoc.jar",
+          "url": "misaka-network-21.10.1-javadoc.jar",
+          "size": 240097,
+          "sha512": "037144bdaffa16177c0ac5559ccaaf89774a0257b4e8420ef45a37c6ee1b6f9c9c350b2bdb0c5dfb141fcb776f356215c6edfae59f11d22a8ff34c0a0420cd2b",
+          "sha256": "f3381a48989980a4431f87eaf672fe2b671adc8421aa0465c4ccb65642cbb1ac",
+          "sha1": "a826f6b3e417197f12dbd4c896822067c0f03dff",
+          "md5": "c55fa6347b4eae39c61736ef864fb479"
+        }
+      ]
+    }
+  ]
+}
