@@ -27,11 +27,11 @@
         {
           "name": "misaka-network-21.10.1.jar",
           "url": "misaka-network-21.10.1.jar",
-          "size": 62939,
-          "sha512": "06407bf9924938751d59b8854a41b618aa8ce7aa76ce94da5a149866a9d5ebcd7a11b0b0c733bb780ac815b798c4ee6da69d963b4644193884eb71caebf9f71a",
-          "sha256": "9ff636e33e017b3dcaa3f2da856322ed59677b5c0c845a9d23c3353c1bf39c5d",
-          "sha1": "e19f007dab60ffdbf52baca0685e4e073f2f933e",
-          "md5": "dba0c9ae4eb95f7da5f59de792660544"
+          "size": 62736,
+          "sha512": "cb8987b8050318fcd78f910c2ab8d15677e4381a53d68fd68fb8877cee883809f8036e14deadfac2512e134a4d9f729806062fbb278fb298f5a1f3519f2021f8",
+          "sha256": "df286856accff0bca1e06fe4bb15dcb56ef02495c29c1902226d7d5aaf1a626a",
+          "sha1": "b9c56c13daf82d6b09899d2765e20794e92f47c4",
+          "md5": "5bf96214d9e08e9b6b7f8966fe5724be"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "misaka-network-21.10.1.jar",
           "url": "misaka-network-21.10.1.jar",
-          "size": 62939,
-          "sha512": "06407bf9924938751d59b8854a41b618aa8ce7aa76ce94da5a149866a9d5ebcd7a11b0b0c733bb780ac815b798c4ee6da69d963b4644193884eb71caebf9f71a",
-          "sha256": "9ff636e33e017b3dcaa3f2da856322ed59677b5c0c845a9d23c3353c1bf39c5d",
-          "sha1": "e19f007dab60ffdbf52baca0685e4e073f2f933e",
-          "md5": "dba0c9ae4eb95f7da5f59de792660544"
+          "size": 62736,
+          "sha512": "cb8987b8050318fcd78f910c2ab8d15677e4381a53d68fd68fb8877cee883809f8036e14deadfac2512e134a4d9f729806062fbb278fb298f5a1f3519f2021f8",
+          "sha256": "df286856accff0bca1e06fe4bb15dcb56ef02495c29c1902226d7d5aaf1a626a",
+          "sha1": "b9c56c13daf82d6b09899d2765e20794e92f47c4",
+          "md5": "5bf96214d9e08e9b6b7f8966fe5724be"
         }
       ]
     },
@@ -68,11 +68,11 @@
         {
           "name": "misaka-network-21.10.1-sources.jar",
           "url": "misaka-network-21.10.1-sources.jar",
-          "size": 34918,
-          "sha512": "deff8cc604187860a6eece07f9fd33644ee6a362c69d9b42e66df90ec2dcd38bdf6b8d363db3fdcc69f1816dbf848f72942f0c5b6d1dbdcc4bc821c43ee98e15",
-          "sha256": "4b4817978f32dffe0843adbcd0a1993f5962b5bf3b2dd365a6b94371e85ef3b7",
-          "sha1": "7651e0da2d6765d0e4fc047ee1cacf995eb6998d",
-          "md5": "5e93cedd2eebb30f4a017c77533c3ca2"
+          "size": 35411,
+          "sha512": "b3c7522a2ebe67a57fc8187ab647fd8358a7b4c877d4252ba0e4b6ae61f9da44366bb6f56f0376a8f018b6bb048fec2031a28e607665764d55e56fbbf18a37a7",
+          "sha256": "15667b314abc7fc6a14be32a6a589939809b8a51f99a180fc3c811e1d7594ce2",
+          "sha1": "71ce3b67a215b280505805f6e7e1158ddfa337c7",
+          "md5": "c2a26452bf53b4c4766b87f99f7cf4cf"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "misaka-network-21.10.1-javadoc.jar",
           "url": "misaka-network-21.10.1-javadoc.jar",
-          "size": 247020,
-          "sha512": "1d79fa78aeb8527009b25e5ae124c78c019eb554d26cae69a04222b51e9dff78e0a9c66d6566bba67c814b939128d7570ac8eb2a4f28761dcd5a4d696dd160f0",
-          "sha256": "3b9135d503f89aaa8e8df8cd5504f69f481b7b5b07598e08c075f83855f071c0",
-          "sha1": "aae50ddeab2c0b07b0248ae291d0cad39e433ae4",
-          "md5": "d1ac9a5345c06b144827c057dd18dc86"
+          "size": 249071,
+          "sha512": "58cf8f83976662567b9368e686665f4cd3443319eb00c7be5aea3f48b4a6bf7d8c30fa590392ca7e15484a8ecd7b5e4f6ee9ca3a8da370c5d684f578e4041d1f",
+          "sha256": "521f3d23785b73a9a0c7693b289b5fe58e09c14375822e10d80e516611e1f8d7",
+          "sha1": "7259e1592c5ce735eaf949fcb54191c7af63d272",
+          "md5": "723e044858eefc5f8ac667e0a96d840a"
         }
       ]
     }
