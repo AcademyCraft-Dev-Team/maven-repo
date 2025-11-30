@@ -3,12 +3,13 @@
   <groupId>org.academy</groupId>
   <artifactId>misaka-network</artifactId>
   <versioning>
-    <latest>21.10.1-hotfix</latest>
-    <release>21.10.1-hotfix</release>
+    <latest>21.11.1-pre</latest>
+    <release>21.11.1-pre</release>
     <versions>
       <version>21.10.1</version>
       <version>21.10.1-hotfix</version>
+      <version>21.11.1-pre</version>
     </versions>
-    <lastUpdated>20251106115111</lastUpdated>
+    <lastUpdated>20251130033441</lastUpdated>
   </versioning>
 </metadata>

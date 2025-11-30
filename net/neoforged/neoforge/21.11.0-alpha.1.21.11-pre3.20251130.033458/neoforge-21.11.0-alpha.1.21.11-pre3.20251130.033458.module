@@ -1,0 +1,622 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.neoforged",
+    "module": "neoforge",
+    "version": "21.11.0-alpha.1.21.11-pre3.20251130.033458",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "neoforge-21.11.0-alpha.1.21.11-pre3.20251130.033458-sources.jar",
+          "url": "neoforge-21.11.0-alpha.1.21.11-pre3.20251130.033458-sources.jar",
+          "size": 2011925,
+          "sha512": "bd02ee9150481eab8acfd498344adbdb0b3b42c33cd5d57206448cc32de26252c1b843f4837b9517ca043808cbf4583fe3d931cb0e0d09facd95dd72be3668bb",
+          "sha256": "8b0c3544a2ae620bbfa0a54c5ca1543f1b76315c9bda8758c3478cd0c85a13bd",
+          "sha1": "e67f2216bef5ee2875e25812cc43949560799503",
+          "md5": "ac2efcfb72603a0f54b290d4c7151989"
+        }
+      ]
+    },
+    {
+      "name": "modDevBundle",
+      "attributes": {
+        "org.gradle.category": "data",
+        "org.gradle.dependency.bundling": "external"
+      },
+      "dependencies": [
+        {
+          "group": "net.neoforged",
+          "module": "neoform",
+          "version": {
+            "requires": "1.21.11-pre3-20251125.161933"
+          },
+          "requestedCapabilities": [
+            {
+              "group": "net.neoforged",
+              "name": "neoform"
+            }
+          ],
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "neoforge-21.11.0-alpha.1.21.11-pre3.20251130.033458-userdev.jar",
+          "url": "neoforge-21.11.0-alpha.1.21.11-pre3.20251130.033458-userdev.jar",
+          "size": 4496853,
+          "sha512": "ef638c81fc23f212f9fb11a77c549900dc9bd69b88003a95f09e4fdc1552b4b6e5bc720cb549b67b357de5ee5fd5795550f5fcf2af0b40f226ca1f08d3a2bd58",
+          "sha256": "a08b1566bdba8a6b7663093606a8bd01f58648a5e775c16a7a738b8a15b3854b",
+          "sha1": "74d8216128d7c963b3045ad3b6eb5cb42c3f1edf",
+          "md5": "88183e4d6075131e2c0dfa6203c15c56"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.neoforged",
+          "name": "neoforge-moddev-bundle",
+          "version": "21.11.0-alpha.1.21.11-pre3.20251130.033458"
+        }
+      ]
+    },
+    {
+      "name": "modDevConfig",
+      "attributes": {
+        "org.gradle.category": "data",
+        "org.gradle.dependency.bundling": "external"
+      },
+      "files": [
+        {
+          "name": "neoforge-21.11.0-alpha.1.21.11-pre3.20251130.033458-moddev-config.json",
+          "url": "neoforge-21.11.0-alpha.1.21.11-pre3.20251130.033458-moddev-config.json",
+          "size": 7740,
+          "sha512": "2bc5fa0757c3301e4da97b6bf040266458d7d1791a71274e347fc2a23088f580f3b220f5b5b50f07f1568e0271b5d3c4a8ab790363c3a86299eb3a2fe2cba204",
+          "sha256": "aa8c783fdbbe8632f6e79dbd33001ef11b14282b8e4483d4ac770c6b9eccf3fc",
+          "sha1": "17b0c0d0aa68406dad62d84f735542d36eab3eb9",
+          "md5": "a0770eb2e560374e2e3455cc16bed8d3"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.neoforged",
+          "name": "neoforge-moddev-config",
+          "version": "21.11.0-alpha.1.21.11-pre3.20251130.033458"
+        }
+      ]
+    },
+    {
+      "name": "installerJar",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "embedded",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "neoforge-21.11.0-alpha.1.21.11-pre3.20251130.033458-installer.jar",
+          "url": "neoforge-21.11.0-alpha.1.21.11-pre3.20251130.033458-installer.jar",
+          "size": 7578000,
+          "sha512": "b800f8a1f20e8e990890dc726f99d25010d7c93760627810ce546bac5ffd4a90a12fc8b302ccf49dc7597f4003ad47e3310913e55329b05a556859dd46177539",
+          "sha256": "33362d11a2f84b969e4bd44f8997ca3feeaf70b91421e9b980c7f1ca227e5d09",
+          "sha1": "79d556257eb2cdb47063733554ddc167c343bbcb",
+          "md5": "4f63158323d51e9abc788729357a20b4"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.neoforged",
+          "name": "neoforge-installer",
+          "version": "21.11.0-alpha.1.21.11-pre3.20251130.033458"
+        }
+      ]
+    },
+    {
+      "name": "universalJar",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "neoforge-21.11.0-alpha.1.21.11-pre3.20251130.033458-universal.jar",
+          "url": "neoforge-21.11.0-alpha.1.21.11-pre3.20251130.033458-universal.jar",
+          "size": 3805609,
+          "sha512": "9ed3ad4af6d16f874c55aed2f322a5b7f995554bb118bbcd31b09a0d069175fc1e17c715f2cd238946f53bb610a8366e9c4be7cbd832f3384c667b8a8142192b",
+          "sha256": "8c44af8bb31d05b325a0e24253dca242d54e71db2d233b67563b81aebc12ec7f",
+          "sha1": "838598917f40602eddaee95c1b2dc43f191eb02f",
+          "md5": "6bc69338376763a89d87ef223e97f197"
+        }
+      ]
+    },
+    {
+      "name": "modDevApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "strictly": "9.8",
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "strictly": "9.8",
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "strictly": "9.8",
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "strictly": "9.8",
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "strictly": "9.8",
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "net.neoforged.fancymodloader",
+          "module": "loader",
+          "version": {
+            "requires": "10.0.34"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.neoforged.fancymodloader",
+          "module": "earlydisplay",
+          "version": {
+            "requires": "10.0.34"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            },
+            {
+              "group": "org.lwjgl",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.neoforged",
+          "module": "accesstransformers",
+          "version": {
+            "requires": "11.0.2"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "bus",
+          "version": {
+            "requires": "8.0.5"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "mergetool",
+          "version": {
+            "requires": "2.0.0"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "mergetool",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "api"
+            }
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.8.3"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.8.3"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-artifact",
+          "version": {
+            "requires": "3.9.9"
+          }
+        },
+        {
+          "group": "net.jodah",
+          "module": "typetools",
+          "version": {
+            "requires": "0.6.3"
+          }
+        },
+        {
+          "group": "net.minecrell",
+          "module": "terminalconsoleappender",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "sponge-mixin",
+          "version": {
+            "requires": "0.16.5+mixin.0.8.7"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.neoforged",
+          "module": "JarJarSelector",
+          "version": {
+            "requires": "0.5.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.neoforged",
+          "module": "JarJarMetadata",
+          "version": {
+            "requires": "0.5.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-neoforge",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "neoform",
+          "version": {
+            "requires": "1.21.11-pre3-20251125.161933"
+          },
+          "requestedCapabilities": [
+            {
+              "group": "net.neoforged",
+              "name": "neoform-dependencies"
+            }
+          ],
+          "endorseStrictVersions": true
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.neoforged",
+          "name": "neoforge-dependencies",
+          "version": "21.11.0-alpha.1.21.11-pre3.20251130.033458"
+        }
+      ]
+    },
+    {
+      "name": "modDevRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "strictly": "9.8",
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "strictly": "9.8",
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "strictly": "9.8",
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "strictly": "9.8",
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "strictly": "9.8",
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "net.neoforged.fancymodloader",
+          "module": "loader",
+          "version": {
+            "requires": "10.0.34"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.neoforged.fancymodloader",
+          "module": "earlydisplay",
+          "version": {
+            "requires": "10.0.34"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            },
+            {
+              "group": "org.lwjgl",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.neoforged",
+          "module": "accesstransformers",
+          "version": {
+            "requires": "11.0.2"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "bus",
+          "version": {
+            "requires": "8.0.5"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "mergetool",
+          "version": {
+            "requires": "2.0.0"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "mergetool",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "api"
+            }
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.8.3"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.8.3"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-artifact",
+          "version": {
+            "requires": "3.9.9"
+          }
+        },
+        {
+          "group": "net.jodah",
+          "module": "typetools",
+          "version": {
+            "requires": "0.6.3"
+          }
+        },
+        {
+          "group": "net.minecrell",
+          "module": "terminalconsoleappender",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "sponge-mixin",
+          "version": {
+            "requires": "0.16.5+mixin.0.8.7"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.neoforged",
+          "module": "JarJarSelector",
+          "version": {
+            "requires": "0.5.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.neoforged",
+          "module": "JarJarMetadata",
+          "version": {
+            "requires": "0.5.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.neoforged",
+          "module": "neoform",
+          "version": {
+            "requires": "1.21.11-pre3-20251125.161933"
+          },
+          "requestedCapabilities": [
+            {
+              "group": "net.neoforged",
+              "name": "neoform-dependencies"
+            }
+          ],
+          "endorseStrictVersions": true
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.neoforged",
+          "name": "neoforge-dependencies",
+          "version": "21.11.0-alpha.1.21.11-pre3.20251130.033458"
+        }
+      ]
+    },
+    {
+      "name": "modDevModulePath",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external"
+      },
+      "capabilities": [
+        {
+          "group": "net.neoforged",
+          "name": "neoforge-moddev-module-path",
+          "version": "21.11.0-alpha.1.21.11-pre3.20251130.033458"
+        }
+      ]
+    },
+    {
+      "name": "modDevTestFixtures",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.neoforged.fancymodloader",
+          "module": "junit-fml",
+          "version": {
+            "requires": "10.0.34"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.neoforged",
+          "name": "neoforge-moddev-test-fixtures",
+          "version": "21.11.0-alpha.1.21.11-pre3.20251130.033458"
+        }
+      ]
+    }
+  ]
+}
