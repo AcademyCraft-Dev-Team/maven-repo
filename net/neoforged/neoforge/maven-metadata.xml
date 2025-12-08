@@ -3,11 +3,12 @@
   <groupId>net.neoforged</groupId>
   <artifactId>neoforge</artifactId>
   <versioning>
-    <latest>21.11.0-alpha.1.21.11-pre3.20251130.033458</latest>
-    <release>21.11.0-alpha.1.21.11-pre3.20251130.033458</release>
+    <latest>21.11.0-alpha.1.21.11-rc2.20251208.130010</latest>
+    <release>21.11.0-alpha.1.21.11-rc2.20251208.130010</release>
     <versions>
       <version>21.11.0-alpha.1.21.11-pre3.20251130.033458</version>
+      <version>21.11.0-alpha.1.21.11-rc2.20251208.130010</version>
     </versions>
-    <lastUpdated>20251130033517</lastUpdated>
+    <lastUpdated>20251208130105</lastUpdated>
   </versioning>
 </metadata>
