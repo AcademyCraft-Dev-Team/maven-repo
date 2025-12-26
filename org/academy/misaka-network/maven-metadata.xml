@@ -3,15 +3,16 @@
   <groupId>org.academy</groupId>
   <artifactId>misaka-network</artifactId>
   <versioning>
-    <latest>26.1-beta</latest>
-    <release>26.1-beta</release>
+    <latest>26.1-alpha</latest>
+    <release>26.1-alpha</release>
     <versions>
       <version>21.10.1</version>
       <version>21.10.1-hotfix</version>
       <version>21.11.1-pre</version>
       <version>21.11.1-rc2</version>
       <version>26.1-beta</version>
+      <version>26.1-alpha</version>
     </versions>
-    <lastUpdated>20251220090201</lastUpdated>
+    <lastUpdated>20251226090533</lastUpdated>
   </versioning>
 </metadata>
