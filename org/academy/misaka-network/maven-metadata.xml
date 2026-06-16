@@ -3,11 +3,12 @@
   <groupId>org.academy</groupId>
   <artifactId>misaka-network</artifactId>
   <versioning>
-    <latest>26.1.0.0-alpha.0+rc-2</latest>
-    <release>26.1.0.0-alpha.0+rc-2</release>
+    <latest>26.2.0.0-alpha</latest>
+    <release>26.2.0.0-alpha</release>
     <versions>
       <version>26.1.0.0-alpha.0+rc-2</version>
+      <version>26.2.0.0-alpha</version>
     </versions>
-    <lastUpdated>20260321110608</lastUpdated>
+    <lastUpdated>20260616144121</lastUpdated>
   </versioning>
 </metadata>
