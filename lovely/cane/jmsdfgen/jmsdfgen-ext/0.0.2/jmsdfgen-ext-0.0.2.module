@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "lovely.cane.jmsdfgen",
+    "module": "jmsdfgen-ext",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "lovely.cane.jmsdfgen",
+          "module": "jmsdfgen-core",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-bom",
+          "version": {
+            "requires": "3.4.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-freetype"
+        }
+      ],
+      "files": [
+        {
+          "name": "jmsdfgen-ext-0.0.2.jar",
+          "url": "jmsdfgen-ext-0.0.2.jar",
+          "size": 27701,
+          "sha512": "51e9d67675c97555f6305895b728f85421369a1ebcfabfaa292982ebd1e9eb35b86da10a492883108245e6aa9abb7a9f7de2138cd3380b905b08eb4ad1bdf4bd",
+          "sha256": "ba3f848e2648c0195308cd85dfcf17907973b388f19fee57e33f65a8f3c48373",
+          "sha1": "59afac064178b5de9bcc131eac5a933bf65bf0f6",
+          "md5": "0aac37119fbc6e03df80904bdf891576"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-freetype",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-freetype",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "lovely.cane.jmsdfgen",
+          "module": "jmsdfgen-core",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-bom",
+          "version": {
+            "requires": "3.4.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-freetype"
+        }
+      ],
+      "files": [
+        {
+          "name": "jmsdfgen-ext-0.0.2.jar",
+          "url": "jmsdfgen-ext-0.0.2.jar",
+          "size": 27701,
+          "sha512": "51e9d67675c97555f6305895b728f85421369a1ebcfabfaa292982ebd1e9eb35b86da10a492883108245e6aa9abb7a9f7de2138cd3380b905b08eb4ad1bdf4bd",
+          "sha256": "ba3f848e2648c0195308cd85dfcf17907973b388f19fee57e33f65a8f3c48373",
+          "sha1": "59afac064178b5de9bcc131eac5a933bf65bf0f6",
+          "md5": "0aac37119fbc6e03df80904bdf891576"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jmsdfgen-ext-0.0.2-sources.jar",
+          "url": "jmsdfgen-ext-0.0.2-sources.jar",
+          "size": 10288,
+          "sha512": "e6165175d41ad489d30fe770d86ab6ff15a4f0745bdcf015c1408e46855107ea831dea389670e3c54cff8c5863a374d39d69baa45fcc358ba3859eedd1a60400",
+          "sha256": "538b82952ad7921778b057bff6eaa3f4af4cabf5e6c2dc2ef40ba90a2e9ed5c9",
+          "sha1": "101253b32ab2898c9e6acd5406de139c58a7ad55",
+          "md5": "fa809bf88b13a5e378f07829f404c7d3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jmsdfgen-ext-0.0.2-javadoc.jar",
+          "url": "jmsdfgen-ext-0.0.2-javadoc.jar",
+          "size": 4185194,
+          "sha512": "0d68b5655ac6265d68d84fe1e68b44c8374ad3e2160bd9bcf3ff1ca237c4bee33c6cc5b7abf152b3322afdf2e0d5558a56f0c444fb639511b2ad8380a06b570c",
+          "sha256": "af3faef4dbb27f174c312cbc71c7934b8e3bd87988a5652b7e93277d01db143c",
+          "sha1": "51441b6ad406dbfa29fbcb07a2dac9108e9f3a11",
+          "md5": "1a33f38338002f54a800db0f0e7b97f8"
+        }
+      ]
+    }
+  ]
+}
